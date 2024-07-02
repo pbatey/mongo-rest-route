@@ -1,0 +1,46 @@
+{
+  "name": "mongo-rest-router",
+  "version": "0.0.0",
+  "description": "Exposes a Mongo collection via a REST API",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "expres",
+    "rest",
+    "mongo",
+    "mongodb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/pbatey/mongo-rest-router"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "author": "Phil Batey <pbatey@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.16.0",
+    "ajv-formats": "^3.0.1",
+    "express": "^4.19.2",
+    "fast-json-patch": "^3.1.1",
+    "mongodb": "^6.8.0",
+    "query-to-mongo": "^0.11.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "eslint": "^8.48.0",
+    "eslint-plugin-jest": "^27.2.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  }
+}
