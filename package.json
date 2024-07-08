@@ -1,6 +1,6 @@
 {
   "name": "mongo-rest-router",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Exposes a Mongo collection via a REST API",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
